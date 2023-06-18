@@ -15,11 +15,11 @@ function App() {
    <BrowserRouter>
    <Header></Header>
    <Routes>
-    <Route path='/' element={<Home></Home>} />
-    <Route path='/project' element={<Project></Project>} />
-    <Route path='/skill' element={<Skill></Skill>} />
-    <Route path='/blog' element={<Blog></Blog>} />
-    <Route path='/contact' element={<Contact></Contact>} />
+    <Route path='/' element={<Home/>} />
+    <Route path='/project' element={<Project/>} />
+    <Route path='/skill' element={<Skill/>} />
+    <Route path='/blog' element={<Blog/>} />
+    <Route path='/contact' element={<Contact/>} />
     <Route path='*' element={<h2>404 Page Not Found</h2>} />
    </Routes>
    </BrowserRouter>
